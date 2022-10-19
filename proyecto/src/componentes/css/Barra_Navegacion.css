@@ -1,0 +1,24 @@
+*nav ul {
+    display: flex;
+     background-color: #273746;
+     width: 100%;
+     list-style-type: none;
+     text-align: center;
+     flex-direction: row;
+     justify-content: center;
+ }
+ 
+  nav a{
+     text-decoration: none;
+     color: black;
+     padding: 10px  ;
+     width: 150px;
+  }
+ 
+  nav li {
+   display: inline-flex;
+ }
+ 
+  nav li:hover{
+   background-color: #6C3483;
+ }

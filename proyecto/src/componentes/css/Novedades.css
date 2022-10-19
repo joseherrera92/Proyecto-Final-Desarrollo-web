@@ -1,0 +1,50 @@
+.Novedades{
+    padding: 30px;
+    background-color: blue;
+    margin: 10px;
+}
+
+
+.novedad1{
+    padding: 40px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    justify-content: right;
+   
+}
+
+.federico{
+    height: 300px;
+    width: 500px;
+    margin: auto;
+}
+
+.novedad2 {
+    padding: 40px;
+    width: 500px;
+
+}
+
+.banderin {
+    height: 300px;
+    width: 500px;
+    margin: auto;
+}
+
+.novedad3 {
+    padding: 40px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+.arbitro{
+    height: 300px;
+    width: 500px;
+    margin: auto;
+}
