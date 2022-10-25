@@ -52,7 +52,7 @@ const  Novedades = () => {
                        <figure>
                            <img className='img' src={foto_bicho} alt ="./Img/elBicho.jpg"/>
                            <figcaption>
-                           Por James Loaiza
+                           Por James Loaiza gei
                            </figcaption>
                         </figure>
                      </article>
