@@ -3,7 +3,7 @@ import styles from './css/Novedades.css';
 import foto_federico from './Img/foto_federico.jpg';
 import foto_banderin from './Img/foto_banderin.jpg';
 import foto_arbitro from './Img/foto_arbitro.jpg'
-import foto_bicho from './Img/elBicho.jfif'
+import foto_bicho from './Img/elBicho.jpg'
 
 const  Novedades = () => {
     return(
@@ -38,7 +38,7 @@ const  Novedades = () => {
                        <h1> el bicho se gano el mundial, siuuuuuuu </h1>
                        <p> y se lo dedica a su mejor amigo james david loaiza en medellin, que humildad la del bicho. </p>
                        <figure>
-                           <img className='img' src={foto_bicho} alt ="./Img/elBicho.jfif"/>
+                           <img className='img' src={foto_bicho} alt ="./Img/elBicho.jpg"/>
                            <figcaption>
                            Por James Loaiza
                            </figcaption>
