@@ -3,7 +3,6 @@ import styles from './css/Novedades.css';
 import foto_federico from './Img/foto_federico.jpg';
 import foto_banderin from './Img/foto_banderin.jpg';
 import foto_arbitro from './Img/foto_arbitro.jpg';
-import foto_bicho from './Img/elBicho.jpg';
 
 const  Novedades = () => {
     return(
@@ -31,7 +30,24 @@ const  Novedades = () => {
             
             </article>
 
-           
+            <section className="news-feed" class="container">
+              <section class = "news-block">
+                 <div class="left-block">
+                     <article>
+                       <h1> el bicho se gano el mundial, siuuuuuuu </h1>
+                       <p> y se lo dedica a su mejor amigo james david loaiza en medellin, que humildad la del bicho. </p>
+                       <figure>
+                           <img className='img' src={foto_bicho} alt ="./Img/elBicho.jfif"/>
+                           <figcaption>
+                           Por James Loaiza
+                           </figcaption>
+                        </figure>
+                     </article>
+                </div>
+            <div class="right-block">right block</div>
+        </section>
+    </section>
+
 
             <article className='novedad3'>
             <h2>Academia </h2> 
@@ -42,25 +58,6 @@ const  Novedades = () => {
                     </a>
                 </figure>
             </article>
-
-            <section className="news-feed" class="container">
-              <section class = "news-block">
-                 <div class="left-block">
-                     <article>
-                       <h1> el bicho se gano el mundial, siuuuuuuu </h1>
-                       <p> y se lo dedica a su mejor amigo james david loaiza en medellin, que humildad la del bicho. </p>
-                       <figure>
-                           <img className='img' src={foto_bicho} alt ="./Img/elBicho.jpg"/>
-                           <figcaption>
-                           Por James Loaiza gei
-                           </figcaption>
-                        </figure>
-                     </article>
-                </div>
-            <div class="right-block">right block</div>
-        </section>
-    </section>
-
             
         </section>
     );

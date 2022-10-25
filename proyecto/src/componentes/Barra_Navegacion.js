@@ -12,6 +12,7 @@ const Barra_Navegacion = () => {
         </ul>
     </nav>
     );
+
 }
 
 export default Barra_Navegacion;
