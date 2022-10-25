@@ -8,6 +8,7 @@ import foto_bicho from './Img/elBicho.jpg';
 const  Novedades = () => {
     return(
         <section className='Novedades'>
+            <h1>NOVEDADES</h1> 
             <article className='novedad1'>
             <h2>El arbitro de futbol Federico Puerta no ve muy lejos la "B" profesional</h2> 
             <p>Federico es un arbitro que lleva incorporado en el colegio de arbitros de la AAA "" años.
@@ -30,8 +31,6 @@ const  Novedades = () => {
                 </figure>
             
             </article>
-
-           
 
             <article className='novedad3'>
             <h2>Academia </h2> 
