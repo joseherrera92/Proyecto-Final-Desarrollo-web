@@ -5,8 +5,14 @@ const Reglamentos = () => {
     return(
         <section className='reglamentos'>
             <article className='reglamento-liga'>
-                <></>
+
                 <h2> Reglamento liga</h2>
+                <h3> reglamentos de la liga</h3>
+                <p>
+                 <p> -Tener un premio para el ganador</p>
+                 <p> -Tener muchos estadios para los partidos</p>
+                 <p> -Ser justos con todos los equipos</p>
+                </p>
 
             </article>
 
@@ -34,12 +40,26 @@ const Reglamentos = () => {
 
             </article>
             
-            <article className='reglamento-salado'>
-                 <h2> Reglamento salado</h2>
+            <article className='reglamento-jugador'>
+                 <h2> Reglamento jugador</h2>
+                 <h3> Reglamento para el jugador</h3>
+                <p>
+                 <p> -Llevar la indumentaria</p>
+                 <p> -Llevar 5mil para el albitraje </p>
+                 <p> -Llevar publico para que los aliente</p>
+                 <p> -Hacerle caso al tecnico </p>
+                </p>
             </article>
                 
-            <article className='regalemnto-san-ignacio'>
-                 <h2> Reglamento san ignacio</h2>
+            <article className='regalemnto-aficion'>
+                 <h2> Reglamento para la aficion </h2>
+                 <h3> Reglamento para los aficionados</h3>
+                <p>
+                 <p> -Alentar todo el partido a su equipo</p>
+                 <p> -No abandonar el equipo</p>
+                 <p> -Llegar temprano al estadio </p>
+                 <p> -No faltarle al respeto a ninguno de la aficion</p>
+                </p>
             </article>
         </section>
     );
