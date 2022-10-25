@@ -3,6 +3,7 @@ import styles from './css/Novedades.css';
 import foto_federico from './Img/foto_federico.jpg';
 import foto_banderin from './Img/foto_banderin.jpg';
 import foto_arbitro from './Img/foto_arbitro.jpg'
+import foto_bicho from './Img/elBicho.jfif'
 
 const  Novedades = () => {
     return(
