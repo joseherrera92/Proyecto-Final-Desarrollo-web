@@ -5,14 +5,13 @@ const Reglamentos = () => {
     return(
         <section className='reglamentos'>
             <article className='reglamento-liga'>
-                <></>
+
                 <h2> Reglamento liga</h2>
-                <h3> Reglamentos para las ligas competitivas</h3>
+                <h3> reglamentos de la liga</h3>
                 <p>
-                 <p> -todos los jugadores deben tener ropa deportiva</p>
-                 <p> -Tener toda su indumentaria lista para el encuentro</p>
-                 <p> -Llevar 5mil para el albitraje </p>
-                 <p> -Llevar a la mamá para que lo aliente </p>
+                 <p> -Tener un premio para el ganador</p>
+                 <p> -Tener muchos estadios para los partidos</p>
+                 <p> -Ser justos con todos los equipos</p>
                 </p>
 
             </article>
@@ -41,23 +40,25 @@ const Reglamentos = () => {
 
             </article>
             
-            <article className='reglamento-aficionado'>
-                 <h2> Reglamento de los aficionados</h2>
-                 <h3> Reglamento para los que vayan a ver el encuentro deportivo</h3>
+            <article className='reglamento-jugador'>
+                 <h2> Reglamento jugador</h2>
+                 <h3> Reglamento para el jugador</h3>
                 <p>
-                 <p> - No insultar a los participantes del encuentro</p>
-                 <p>- llevar algo para animar al equipo que apoya</p>
+                 <p> -Llevar la indumentaria</p>
+                 <p> -Llevar 5mil para el albitraje </p>
+                 <p> -Llevar publico para que los aliente</p>
+                 <p> -Hacerle caso al tecnico </p>
                 </p>
             </article>
                 
-            <article className='regalemnto-arbitro'>
-                 <h2> Reglamento para el arbitro</h2>
-                 <h3> Reglamento para el arbitro del partido </h3>
+            <article className='regalemnto-aficion'>
+                 <h2> Reglamento para la aficion </h2>
+                 <h3> Reglamento para los aficionados</h3>
                 <p>
-                 <p> - Llevar ropa diferente a el de los jugadores</p>
-                 <p> - Llevar chimba de silvato </p>
-                 <p> - Ser justo para las personas </p>
-                 <p> - Ser parchaito con le jente </p>
+                 <p> -Alentar todo el partido a su equipo</p>
+                 <p> -No abandonar el equipo</p>
+                 <p> -Llegar temprano al estadio </p>
+                 <p> -No faltarle al respeto a ninguno de la aficion</p>
                 </p>
             </article>
         </section>
