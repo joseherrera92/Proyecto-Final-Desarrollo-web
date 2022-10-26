@@ -1,10 +1,11 @@
 import react from 'react';
 import styles from './css/Pie_Pagina.css'
 import logoaaa from './Img/logoaaa.jpg'
+import facebook from './Img/facebook.jpg'
 
 const Pie_Pagina = () => {
     return(
-        <footer class="pie-de-pagina">
+        <footer id='Footer' class="pie-de-pagina">
         <section class="grupo-1">
             <article class="box">
                 <figure>
@@ -23,10 +24,6 @@ const Pie_Pagina = () => {
                 <h2>SIGUENOS:</h2>
                 <section class="red-social">
                     <a href="https://www.facebook.com/antioquiacademia" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-google-plus"></a>
-                    <a href="#" class="fa fa-youtube"></a>
-                    <a href="#" class="fa fa-linkedin"></a>
                 </section>
             </section>
 

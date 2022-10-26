@@ -1,5 +1,6 @@
 .Novedades{
-    padding: 30px;
+    margin: 40px;
+    padding: 20px;
     background-image: url(../Img/fondo.jpg);
     background-color: #375694;
 }
@@ -37,9 +38,9 @@ h2{
 
 }
 
-.banderin {
+.fotocuadrada {
     height: 300px;
-    width: 400px;
+    width: 300px;
     margin: auto;
 }
 
@@ -55,7 +56,8 @@ h2{
 }
 
 .arbitro{
-    height: 300px;
-    width: 400px;
+    height: 350px;
+    width: 450px;
     margin: auto;
+
 }
