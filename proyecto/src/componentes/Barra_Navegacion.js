@@ -3,14 +3,16 @@ import styles from './css/Barra_Navegacion.css'
 
 const Barra_Navegacion = () => {
     return(
-        <nav>
-        <ul>
-            <li><a href="">Menú</a></li>
-            <li><a href="">Sobre Nostros</a></li>
-            <li><a href="">Novedades</a></li>
-            <li><a href="">Reglamentos</a></li>
-        </ul>
-    </nav>
+        <nav className='menu'>
+            <div clasName= 'titulo'>
+                <h1> Academia Antioqueña de Arbitros</h1>
+            </div>
+                <div className='contenido'>
+                    <a href="">Novedades</a>
+                    <a href="">Reglamentos</a>
+                    <a href="">Footer</a>
+                </div>
+        </nav>
     );
 
 }

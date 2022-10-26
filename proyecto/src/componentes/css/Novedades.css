@@ -1,9 +1,18 @@
 .Novedades{
     padding: 30px;
+    background-image: url(../Img/fondo.jpg);
     background-color: #375694;
-    margin: 40px;
 }
 
+.contenedornovedades{
+    margin: 40px;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.8);
+}
+
+h2{
+    text-align: center;
+}
 
 .novedad1{
     padding: 40px;
@@ -13,12 +22,11 @@
     float: right;
     justify-content: right;
     text-align: left;
-   
 }
 
 .federico{
     height: 300px;
-    width: 500px;
+    width: 400px;
     margin: auto;
 }
 
@@ -31,7 +39,7 @@
 
 .banderin {
     height: 300px;
-    width: 500px;
+    width: 400px;
     margin: auto;
 }
 
@@ -48,60 +56,6 @@
 
 .arbitro{
     height: 300px;
-    width: 500px;
+    width: 400px;
     margin: auto;
-}
-
-
-/*  Bloque el bicho*/
-
-#news-feed.news-block {
-    display: flex;
-    width: 100%;
-}
-
-#news-feed .news-block .left-block {
-    width: 65%;
-    
-}
-
-#news-feed .news-block .right-block {
-    width: 35%;
-    background: lightgreen;
-    position: relative;
-    left: 80px;
-}
-
-#news-feed h1 {
-    font-family: sans-serif;
-    font-size: 40px;
-
-}
-
-#news-feed p {
-    font-family: sans-serif;
-    font-size: 20px;
-    color: grey;
-}
-
-#news-feed figure {
-    position: relative;
-
-}
-
-#news-feed img {
-    width: 100%;
-
-}
-
-#news-feed figure figcaption {
-    width: auto;
-    /*para que el texto no toque los bordes*/ 
-    padding: 15px;
-    border-radius: 5px;
-    font-family: sans-serif;
-    background: rgba(0, 0, 0,0.3); 
-    position: absolute;
-    bottom: 20px;
-    left: 15px;
 }
