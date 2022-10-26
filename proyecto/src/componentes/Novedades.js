@@ -32,16 +32,6 @@ const  Novedades = () => {
             
             </article>
 
-            <article className='novedad3'>
-            <h2>Academia </h2> 
-            <p>A lo alrgo del timepo, esta academia fue cogiendo fuerza y logro conseguir torneos para mandar a sus diferentes arbitros a impartir justicia, y asi fue consiguiendo mas y mas, actualmente dirigen 6 torneos </p>
-                <figure>
-                    <a href="#">
-                    <img className="arbitro" src={foto_arbitro} alt="foto_arbitro.jpg"/>
-                    </a>
-                </figure>
-            </article>
-
             <section className="news-feed" class="container">
               <section class = "news-block">
                  <div class="left-block">
@@ -51,7 +41,7 @@ const  Novedades = () => {
                        <figure>
                            <img className='img' src={foto_bicho} alt ="./Img/elBicho.jpg"/>
                            <figcaption>
-                           Por James Loaiza gei
+                           Por James Loaiza
                            </figcaption>
                         </figure>
                      </article>
@@ -60,6 +50,15 @@ const  Novedades = () => {
         </section>
     </section>
 
+            <article className='novedad3'>
+            <h2>Academia </h2> 
+            <p>A lo alrgo del timepo, esta academia fue cogiendo fuerza y logro conseguir torneos para mandar a sus diferentes arbitros a impartir justicia, y asi fue consiguiendo mas y mas, actualmente dirigen 6 torneos </p>
+                <figure>
+                    <a href="#">
+                    <img className="arbitro" src={foto_arbitro} alt="foto_arbitro.jpg"/>
+                    </a>
+                </figure>
+            </article>
             
         </section>
     );
